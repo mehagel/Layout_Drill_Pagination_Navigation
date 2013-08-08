@@ -19,13 +19,35 @@ small.page_no {
 .pagination {
   background-color: #eee;
   margin: 10px 0px;
+  /*padding: 70px;*/
+  padding-left: 0px;
+  padding-top: 0;
+  padding-bottom: 40px;
+  width: 325px;
 }
 
+.pagination li {
+  display: inline;
+  list-style: none;
+  padding: 0px;
+ 
+
+}
 .pagination a {
   color: #222;
   text-decoration: none;
+  border: 0px;
+  padding:10px;
+  float:left;
+ 
+
 }
 
 .pagination a.disabled {
   color: #ccc;
+}
+
+li .active{
+  background-color: gray;
+  color: white;
 }
